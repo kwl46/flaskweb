@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.13"
       - name: Install Packages
-        run: pip install -r flask pymongo
+        run: pip install flask pymongo
       - name: Login To DockerHub
         uses: docker/login-action@v1
         with:
